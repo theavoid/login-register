@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Montserrat&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Poppins, serif !important;
+}
+
+body {
+    background-color: #F2F5FF;
+}
+
+.app {
+    background-color: #fff;
+    padding: 45px;
+    margin: 70px auto;
+    max-width: 500px;
+    color: #445f88;
+    border-radius: 10px;
+}
+
+.app .header {
+    text-align: center;
+}
+
+.app .header h2 {
+    margin-bottom: 10px;
+}
+
+.app .body .form-area {
+    margin-top: 20px;
+}
+
+.app .body .form-area .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #F3F8FF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.app .body button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #277FFE;
+    border: none;
+    font-size: 15px;
+    color: #ececec;
+    border-radius: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.app .body .discord {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #545FE6;
+    border: none;
+    font-size: 15px;
+    color: #ececec;
+    border-radius: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.app .body .discord:hover {
+    background-color: #424ab2;
+}
+
+.app .body button:hover {
+    background-color: #1f62c2;
+}
+
+.form-area i {
+    font-family: "Font Awesome 6 Free", sans-serif !important;
+    position: absolute;
+    padding: 15px;
+    min-width: 40px;
+    color: #277FFE;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: #277FFE;
+}
+
+@media (max-width: 370px) {
+    .form-area i {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .app {
+        margin: 0px !important;
+    }
+    .container {
+        margin-top: 20px;
+    }
+}

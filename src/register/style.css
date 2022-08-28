@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Montserrat&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Poppins, serif !important;
+}
+
+body {
+    background-color: #F2F5FF;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+nav .logo {
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px !important;
+    margin-left: 20px;
+    display: inline-block;
+    color: #444444;
+}
+
+nav .flex {
+    display: flex;
+    line-height: 80px;
+    margin-right: 40px;
+    float: right;
+}
+
+nav ul li a {
+    color: #3f3f3f;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+nav ul li a:hover {
+    color: #277FFE;
+}
+
+.flex .actions button {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.app {
+    background-color: #fff;
+    padding: 45px;
+    margin: 70px auto;
+    max-width: 750px;
+    color: #445f88;
+    border-radius: 10px;
+}
+
+.app .header {
+    text-align: center;
+}
+
+.app .header h2 {
+    margin-bottom: 10px;
+}
+
+.app .body .form-area {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.app .body .flex {
+    display: flex;
+    gap: 10px;
+}
+
+.app .body .form-area .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #F3F8FF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.app .body button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #277FFE;
+    border: none;
+    font-size: 15px;
+    color: #ececec;
+    border-radius: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.app .body .discord {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #545FE6;
+    border: none;
+    font-size: 15px;
+    color: #ececec;
+    border-radius: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.app .body .discord:hover {
+    background-color: #424ab2;
+}
+
+.app .body button:hover {
+    background-color: #1f62c2;
+}
+
+.form-area i {
+    font-family: "Font Awesome 6 Free", sans-serif !important;
+    position: absolute;
+    padding: 15px;
+    min-width: 40px;
+    color: #277FFE;
+}
+
+i {
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+.container {
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: #277FFE;
+}
+
+@media (max-width: 370px) {
+    .form-area i {
+        display: none;
+    }
+    .app .body .form-area .input {
+        text-align: start;
+    }
+}
+
+@media (max-width: 500px) {
+    .app {
+        margin: 0px !important;
+    }
+    .container {
+        margin-top: 20px;
+    }
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+.terms label a {
+    text-decoration: none;
+}
+
+input[type="checkbox"] {
+    border: none;
+    background-color: #F2F5FF;
+}
+
+@media (max-width: 500px) {
+    .app .body .flex {
+        flex-direction: column;
+    }
+}
