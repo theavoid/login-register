@@ -1,6 +1,7 @@
 # Login and Register Page
-Login and register page with CSS
+CSS ile giriş ve kayıt sayfası / Login and register page with CSS
+Kayıt sayfasında ek olarak navbar bulunmakta.
 
-![title](https://i.hizliresim.com/rrc1f2b.jpg)
-![title](https://i.hizliresim.com/f3me69f.jpg)
+![title](https://i.hizliresim.com/1p8aid1.jpg)
+![title](https://i.hizliresim.com/diofkfu.jpg)
 
